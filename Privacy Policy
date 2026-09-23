@@ -1,0 +1,190 @@
+Privacy Policy for SiteGuard
+
+Effective Date: September 23, 2026
+
+SiteGuard is a browser security extension designed to help users assess the security characteristics of websites they visit. SiteGuard uses a local-first approach and performs security analysis within the user's browser whenever possible.
+
+This Privacy Policy explains what information SiteGuard processes, how that information is used, where it is stored, and what choices users have.
+
+1. Information We Process
+
+SiteGuard is designed to minimize the collection and transmission of user information.
+
+Information processed locally
+
+During a security scan, SiteGuard may process security-relevant information associated with the website being assessed. This may include:
+
+Website URL and URL characteristics
+HTTPS and TLS-related indicators
+HTTP security response headers
+Content-Security-Policy information
+Strict-Transport-Security information
+Cookie security attributes such as Secure, HttpOnly, and SameSite
+Mixed-content indicators
+Redirect information
+Other technical indicators required to calculate the website security assessment
+
+This information is processed to identify observable security indicators and generate the SiteGuard risk score and findings.
+
+Where possible, this analysis is performed locally within the browser.
+
+2. Information Stored Locally
+
+SiteGuard may store the following information locally in the user's browser:
+
+User scanning preferences
+Allow and block lists configured by the user
+Security findings
+Website risk scores
+Local scan history
+
+SiteGuard uses Chrome's extension storage facilities for this information.
+
+The current configuration provides an option to retain local scan history for a limited period. Users can also delete their locally stored scan history through the SiteGuard settings.
+
+SiteGuard does not intentionally store:
+
+Passwords
+Authentication credentials
+Payment card information
+Personal communications
+GPS coordinates
+Cookie values
+Complete webpage HTML
+Keystrokes
+Mouse movements
+Browsing history unrelated to the security scans
+3. Optional Security Analysis Backend
+
+SiteGuard can optionally be configured to connect to a Security Analysis API.
+
+The backend is not required for the basic local security scanning functionality.
+
+When the optional backend is not configured, SiteGuard is designed to keep the security analysis local to the user's device.
+
+If a user voluntarily configures an external backend, certain security-analysis information may be transmitted to that backend for the purpose of obtaining additional security intelligence or AI-based classification results.
+
+The optional backend may be used to provide additional:
+
+Threat intelligence findings
+Security classification results
+AI-assisted security analysis
+
+Users can leave the backend configuration blank to keep SiteGuard in its local-only configuration.
+
+Users should review the privacy policy of any third-party backend or security-analysis service they choose to configure.
+
+4. Purpose of Data Processing
+
+Information processed by SiteGuard is used only to support its core purpose of website security assessment.
+
+This includes:
+
+Detecting observable website security issues
+Generating a security risk score
+Presenting security findings and supporting evidence
+Maintaining user-configured scanning preferences
+Maintaining locally stored scan history
+Enforcing user-configured allow and block lists
+Providing optional additional security analysis when a backend is configured
+
+SiteGuard does not use the information it processes for advertising, behavioral profiling, credit assessment, lending decisions, or unrelated commercial purposes.
+
+5. Data Sharing
+
+SiteGuard does not sell user data.
+
+SiteGuard does not intentionally transfer user information to third parties for advertising or unrelated purposes.
+
+When the optional Security Analysis API is configured by the user, information required to provide the requested additional security analysis may be transmitted to the configured backend.
+
+No optional backend is required for the basic local scanning functionality.
+
+6. Browsing Activity
+
+SiteGuard analyzes websites as part of its core security-scanning function.
+
+The extension may automatically perform a security scan when configured to scan pages as the user visits them.
+
+SiteGuard does not intentionally create or maintain a general-purpose browsing history for advertising, profiling, or tracking purposes.
+
+Any scan history maintained by the extension is associated with SiteGuard's security-analysis functionality and is stored locally in the user's browser.
+
+7. Cookies
+
+SiteGuard may inspect security-related cookie attributes when performing a website security assessment.
+
+SiteGuard does not intentionally collect or store the actual values of users' cookies.
+
+Cookie-related analysis is performed to identify security attributes relevant to the SiteGuard security assessment.
+
+8. Website Content
+
+SiteGuard may inspect technical information available from webpages and network responses when necessary to perform its security assessment.
+
+The extension is designed to focus on security-relevant technical indicators rather than collecting the contents of webpages for unrelated purposes.
+
+SiteGuard does not intentionally store complete webpage HTML as part of its local scan history.
+
+9. Permissions
+
+SiteGuard requests browser permissions that are necessary for its website security analysis functionality.
+
+These permissions may allow SiteGuard to:
+
+Inspect security-relevant information from webpages
+Observe response headers required for security analysis
+Detect redirect chains
+Store extension settings and local scan results
+Enforce user-configured website block rules
+Perform scheduled updates when the optional backend is configured
+
+The permissions are used to support the extension's core purpose of website security assessment.
+
+10. Data Retention
+
+Information stored by SiteGuard locally remains on the user's device unless the user deletes it or removes the extension.
+
+Where scan-history retention is enabled, users can configure or manage the available retention settings through SiteGuard.
+
+Users can also use the SiteGuard settings to delete locally stored scan history.
+
+Information sent to an optional external backend is subject to the retention practices and privacy policy of that backend.
+
+11. User Control
+
+Users can control several aspects of SiteGuard through the extension's settings, including:
+
+Scanning mode
+Scan sensitivity
+Allow lists
+Block lists
+Local scan-history settings
+Optional backend configuration
+
+Users can choose not to configure the optional backend and continue using the local security-scanning functionality.
+
+12. Security
+
+SiteGuard is designed with a local-first architecture to reduce unnecessary transmission of security-analysis information.
+
+However, no software or method of electronic storage can guarantee absolute security. Users should exercise appropriate caution when configuring external services or providing information to websites.
+
+13. Children's Privacy
+
+SiteGuard is not specifically directed toward children and does not intentionally collect personal information from children.
+
+14. Changes to This Privacy Policy
+
+This Privacy Policy may be updated when SiteGuard's functionality, data practices, or applicable requirements change.
+
+The updated version will be made available at the same privacy-policy URL.
+
+The effective date at the beginning of this policy will indicate when the policy was most recently updated.
+
+15. Contact
+
+For questions, concerns, or requests regarding this Privacy Policy or SiteGuard's data practices, please contact:
+
+Developer: Dr. Hashmat Fida
+Email: hashmatfida [at] gmail dot com
